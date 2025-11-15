@@ -1,0 +1,497 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4ecff8d9-5a60-4ce9-8e7b-5b5857912994")
+	(paper "A4")
+	(title_block
+		(title "DisplayBoard")
+		(date "2025-10-21")
+		(rev "v1.0")
+		(company "DIY - Finn Ganser")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 119.38 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15678842-a6e1-49cf-867a-737d39b336a0")
+	)
+	(wire
+		(pts
+			(xy 139.7 59.69) (xy 176.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9a78b9-37fa-4525-8f25-4e37b03fe861")
+	)
+	(wire
+		(pts
+			(xy 121.92 101.6) (xy 121.92 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e68f8c9-8c92-4f87-9a91-425408667317")
+	)
+	(wire
+		(pts
+			(xy 176.53 123.19) (xy 161.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41597019-7f5c-4228-84f9-97b65d6ff9db")
+	)
+	(wire
+		(pts
+			(xy 158.75 125.73) (xy 176.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c26a4e6-2e71-4dd7-b3a1-ccc2b1c42e32")
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6) (xy 116.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574424e3-6279-4d36-8f09-103f1c53c321")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 114.3 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708b9c2e-9a2f-49ec-9a4d-68aa8d5765e4")
+	)
+	(wire
+		(pts
+			(xy 111.76 101.6) (xy 111.76 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b69c19c-a069-4d2c-a3cb-0fa33cade5e4")
+	)
+	(wire
+		(pts
+			(xy 161.29 123.19) (xy 161.29 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c81613-8ce3-46ca-ba1c-23f585c0fd4b")
+	)
+	(wire
+		(pts
+			(xy 139.7 57.15) (xy 176.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bbb1c3-0edb-499b-b182-f4dab8c8cc4b")
+	)
+	(wire
+		(pts
+			(xy 161.29 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56723e5-7198-45d5-aea8-1c823defd2c9")
+	)
+	(wire
+		(pts
+			(xy 139.7 99.06) (xy 158.75 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8dd45c9-6add-44b9-91bb-107c3813b18d")
+	)
+	(wire
+		(pts
+			(xy 158.75 99.06) (xy 158.75 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8b4482-c209-45bb-9123-74190b2e0b39")
+	)
+	(sheet
+		(at 110.49 120.65)
+		(size 29.21 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26a4b9b5-83b9-4d0f-b58b-43e02f8197c2")
+		(property "Sheetname" "GC9A01"
+			(at 109.7784 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gc9a01.kicad_sch"
+			(at 140.2846 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK" output
+			(at 121.92 120.65 90)
+			(uuid "21d83fe8-caab-4d99-b7fa-c49b3fbeeec7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS" output
+			(at 119.38 120.65 90)
+			(uuid "527ac7ae-8071-4768-b2bc-aa771f9c6f8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC" output
+			(at 116.84 120.65 90)
+			(uuid "d4202a3b-6973-42f8-95ac-2a28fc85d3d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIN" output
+			(at 114.3 120.65 90)
+			(uuid "82ffd000-d46b-47ea-bc1f-6045ed6bb5ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RST" output
+			(at 111.76 120.65 90)
+			(uuid "09b96e49-3364-457a-81e1-6ecde31759b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DisplayBoard"
+				(path "/4ecff8d9-5a60-4ce9-8e7b-5b5857912994"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 55.88)
+		(size 20.32 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd2eaf73-193a-4401-9316-a8d0cd78235a")
+		(property "Sheetname" "CAN"
+			(at 176.53 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 176.53 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_RX" bidirectional
+			(at 176.53 57.15 180)
+			(uuid "af9a5b5d-e727-4890-9c2c-153927257d0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" bidirectional
+			(at 176.53 59.69 180)
+			(uuid "2bb2e36d-854a-45e6-9a6c-2b39f9425224")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DisplayBoard"
+				(path "/4ecff8d9-5a60-4ce9-8e7b-5b5857912994"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 55.88)
+		(size 29.21 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bfca5b9d-e311-4674-b497-b1ca0f8eca79")
+		(property "Sheetname" "MCU"
+			(at 110.49 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 139.7 96.52 0)
+			(uuid "0253f0c1-5642-435a-8b1c-2a2dbb781304")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 139.7 99.06 0)
+			(uuid "7b660876-b118-40d0-be87-86c0c2396ae2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" bidirectional
+			(at 139.7 57.15 0)
+			(uuid "80ea0ba1-ccce-4d64-8d70-cd609ae4561d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" bidirectional
+			(at 139.7 59.69 0)
+			(uuid "a65b1769-79df-4ce1-9ffe-b913773be029")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" output
+			(at 121.92 101.6 270)
+			(uuid "30539f56-0cb1-424c-9f78-de7a0ef7d509")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS" output
+			(at 119.38 101.6 270)
+			(uuid "b5f547fe-9d08-42f7-ae1a-2948310715e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC" output
+			(at 116.84 101.6 270)
+			(uuid "e1bb2eca-79fd-414c-b099-cae15bcba388")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIN" output
+			(at 114.3 101.6 270)
+			(uuid "55b9a5e2-8d43-46c4-8f46-f0d70d0b01bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RST" output
+			(at 111.76 101.6 270)
+			(uuid "0a3284ed-392a-44f2-9a29-c78e094e57c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DisplayBoard"
+				(path "/4ecff8d9-5a60-4ce9-8e7b-5b5857912994"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 120.65)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce85e6ef-25b3-427e-a673-16c6f008225d")
+		(property "Sheetname" "USB"
+			(at 176.53 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 176.53 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 176.53 123.19 180)
+			(uuid "694d08c1-8b28-4801-9e81-3ffd40ad6b17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 176.53 125.73 180)
+			(uuid "a5dcdc25-8634-499e-af09-10cc9269a13e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DisplayBoard"
+				(path "/4ecff8d9-5a60-4ce9-8e7b-5b5857912994"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
