@@ -5486,7 +5486,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "54c5ffb5-a8f7-492d-8c94-2c62501f2b0c")
+			(uuid "75217360-eb57-4b8d-9e28-bf19b1857ff5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 5.5 0)
@@ -5534,6 +5534,17 @@
 			(uuid "a6b4e678-c622-462f-b4ba-47c9ec02a6f8")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
