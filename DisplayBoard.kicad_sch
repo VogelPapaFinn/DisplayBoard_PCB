@@ -73,6 +73,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 101.6) (xy 124.46 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624f3079-76e8-4506-8cec-4d1c7d85ea79")
+	)
+	(wire
+		(pts
 			(xy 114.3 101.6) (xy 114.3 120.65)
 		)
 		(stroke
@@ -225,6 +235,16 @@
 				(justify right)
 			)
 		)
+		(pin "BL" input
+			(at 124.46 120.65 90)
+			(uuid "afce4fdf-c114-4b71-86e0-1bea9bff3d9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "DisplayBoard"
 				(path "/4ecff8d9-5a60-4ce9-8e7b-5b5857912994"
@@ -320,7 +340,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 123.19 102.87 0)
+			(at 125.73 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -411,6 +431,16 @@
 		(pin "RST" output
 			(at 111.76 101.6 270)
 			(uuid "0a3284ed-392a-44f2-9a29-c78e094e57c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BL" output
+			(at 124.46 101.6 270)
+			(uuid "4ecf7f3c-6edf-46d9-a556-e511b8620dc5")
 			(effects
 				(font
 					(size 1.27 1.27)
