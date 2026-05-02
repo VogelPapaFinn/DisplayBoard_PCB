@@ -18,7 +18,7 @@ D1,SP4020-01FTG-C,R_0805_2012Metric,146.2,-107.5,90.0,top
 D2,PESD1CAN,SOT-23,134.5,-105.0,180.0,top
 FB1,BLM18KG121TN1D,L_0603_1608Metric,148.0,-107.6125,-90.0,top
 J1,Conn_Coaxial,CONMHF1-SMD-G-T_U.FL,131.75,-134.05,90.0,top
-J2,Conn_01x16,ST77916,139.5,-116.5,0.0,bottom
+J2,Conn_01x16,AFC01-S16FCC-00,139.5,-115.365,0.0,bottom
 J3,Conn_01x04,JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical,140.3,-105.0,-90.0,top
 JP1,SolderJumper_2_Open,SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,140.5,-127.09,-90.0,top
 JP2,SolderJumper_2_Open,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,143.55,-125.55,0.0,top
